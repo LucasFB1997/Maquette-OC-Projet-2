@@ -9,6 +9,10 @@
 
 /* CSS Général */
 
+* {
+    margin: 0;
+}
+
 .container {
     max-width: 767px;
     min-width: 375px;
@@ -16,10 +20,6 @@
     margin: auto;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-}
-
-* {
-    margin: 0;
 }
 
 .section1, .aside1, .section3 {
