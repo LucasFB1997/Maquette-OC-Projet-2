@@ -73,22 +73,24 @@ header {
     flex-flow: row wrap;
     align-content: space-between;
     justify-content: space-between;
+    margin: 8px auto 8px auto;
 }
 
 .logo {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*-------------------------*/
 
 
 
 /* CSS barre de navigation */
+
 nav {
-    width: 100%; 
+    width: 100%;
     height: 40%;
     order: 1;
 }
@@ -117,10 +119,15 @@ nav {
 }
 
 
-/*SECTION 1 */    
+/* CSS Recherche et Filtres */
+
 .section1 {
     margin-top: 37px;
     margin-bottom: 37px;
+}
+
+.titreSection1 {
+    margin-top: 75px;
 }
 
 .sousTitreSection1 {
@@ -251,6 +258,7 @@ label {
 
    
 /* CSS général Hébergements & Populaires */
+
 .hidden {
     display: none;
 }
@@ -274,6 +282,7 @@ aside h2 {
 
 
 /* CSS partie "Populaires" */
+
 .aside2 {
     width: 100%;
     margin-left: 0%;
@@ -380,7 +389,7 @@ aside h2 {
     font-size: 1.2em;
 }
 
-.divHeber {
+.hebergement {
     width: 100%; 
     height: 1250px; 
     margin-top: 20px; 
