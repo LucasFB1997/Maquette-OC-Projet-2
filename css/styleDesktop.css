@@ -9,18 +9,18 @@
 
 /* CSS Général */
 
-* {
-    margin: 0;
-}
-
 .container {
-    max-width: 1800px;
-    min-width: 1180px;
+    max-width: 100%;
+    min-width: auto;
     background:#fff;
     margin: auto;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    padding-top: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0;
 }
 
 section, header {
@@ -72,6 +72,8 @@ h3 {
 
 header {
     height: 130px;
+    margin-left: 1%;
+    margin-bottom: -0.5%;
     display: flex;
     justify-content: flex-end; 
     align-items: center;
@@ -241,10 +243,6 @@ label {
    
 /* CSS général Hébergements & Populaires */
 
-.hidden {
-    display: none;
-}
-
 .section2 {
     display: flex;
     justify-content: space-between;
@@ -356,11 +354,10 @@ aside h2 {
 }
 
 .divPop {
-    width: 80.96%; 
-    height: 493px; 
-    margin-left: 9.52%; 
-    margin-left: 9.52%; 
-    margin-top: 20px; 
+    width: 80.96%;
+    height: 493px;
+    margin-left: 9.52%;
+    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -368,7 +365,7 @@ aside h2 {
 }
 
 .divPopulaires {
-    width: 100%; 
+    width: 100%;
     height: 143px;
 }
 
@@ -387,7 +384,7 @@ aside h2 {
 }
 
 .imageBoxPopulaires {
-    border-top-right-radius: 0px; 
+    border-top-right-radius: 0px;
     border-bottom-left-radius: 20px;
     border: 4px solid #fff;
     width: 38%;
